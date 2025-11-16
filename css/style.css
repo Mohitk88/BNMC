@@ -1,0 +1,286 @@
+.smi {
+    height: 35px;
+    width: 35px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+}
+.rajiv{
+    position:sticky ;
+ top:0px ;
+ z-index: 999;
+   
+}
+.border-dotted-maroon {
+    border-bottom: 2px dotted maroon;
+}
+
+.text-maroon {
+    color: maroon;
+}
+.b{
+    background-color: maroon;
+}
+.btn-maroon {
+    background-color: maroon;
+    color: white;
+}
+
+.btn-maroon:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.bg-maroon {
+    background-color: maroon;
+}
+
+.nav-link {
+    color: white;
+}
+
+.mnew {
+    height: 300px;
+    max-width: 350px;
+    /* border: 1px solid; */
+    margin: 0px auto;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.bg-f1e187 {
+    background-color: #f1e187;
+}
+
+/* dropdown hover  */
+.bottom-nav:hover {
+    color: red!important;
+    background-color: maroon !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+display: block;
+margin-top: 0;
+}
+.heading::after {
+    content: '';
+    height: 5px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    margin-top: 45px;
+    left: 50%;
+}
+
+.heading::before {
+    content: '';
+    height: 3px;
+    width: 110px;
+    background-color: rgb(238, 235, 235);
+    position: absolute;
+    left: 48%;
+    margin-top: 46px;
+
+}
+
+.pm {
+    background: linear-gradient(90deg, rgba(150, 0, 0, 0.9), rgba(150, 0, 0, 0.9)), url('../images/book.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/*Swiper css */
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.sis {
+    height: 300px;
+    background: linear-gradient(0deg, rgba(150, 0, 0, 0.5), rgba(150, 0, 0, 0.5)), url('../images/book.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bs {
+    box-shadow: 5px 5px 5px 2px rgb(163, 156, 156);
+    /* border: none; */
+}
+
+.bsp {
+    box-shadow: 5px 5px 5px 2px rgb(193, 185, 185);
+}
+
+.bs:hover {
+    box-shadow: 5px 5px 20px rgb(240, 230, 230);
+}
+
+.soe {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* border:1px solid; */
+    text-align: center;
+
+}
+.soe:hover {
+    background-color: rgb(185, 185, 221);
+  
+}
+
+.border-maroon {
+    border: 1px solid maroon;
+}
+
+.image {
+    height: 400px;
+    background: linear-gradient(0deg, rgba(150, 0, 0, 0.5), rgba(150, 0, 0, 0.5)), url('../images/book.jpg');
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 100px; */
+}
+
+.smi2 {
+    height: 25px;
+    width: 25px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.notice-head {
+    border-top: 2px dashed maroon;
+    border-bottom: 2px dashed maroon;
+    border-left: none;
+    border-right: none;
+
+}
+
+.color-green:hover {
+    color: green;
+}
+.box{
+    height: 300px;
+    max-width:400px ;
+    overflow: hidden;
+}
+.box img{
+    height: 100%;
+   transition: transform 0.4s;
+   
+}
+.icon{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    color:white;
+    display: none;
+}
+.box:hover img{
+  transform: scale(1.2);
+   opacity: 0.6;
+   
+}
+.box:hover .icon{
+    display: block;
+}
+
+.btne{
+position: fixed;
+top: 350px;
+transform: rotate(90deg);
+left: -50px;
+animation: blink 1s infinite;
+z-index: 999;
+}
+@keyframes blink {
+   
+    50%{
+        background-color: maroon;
+        color: white;
+    }
+    100%{
+        background-color: rgb(244, 244, 6);
+        color:maroon;
+
+    }
+}
+.btne2{
+position: fixed;
+bottom: 400px;
+right: -50px;
+transform: rotate(270deg);
+
+animation: blink 1s infinite;
+z-index: 999;
+
+
+}
+@keyframes blink {
+   
+    50%{
+        background-color: maroon;
+        color: white;
+    }
+    100%{
+        background-color: rgb(244, 244, 6);
+        color:maroon;
+
+    }
+}
+.btn-arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+}
+
+.ajay{
+    height:150px;
+    width: 150px;
+   /* border:1px solid; */
+   /* text-align: center; */
+   border-radius:50% ;
+  overflow: hidden;
+}
+.text-white{
+    color:white;
+}
+
+.footl{
+    color:white;
+    background-color: maroon;
+    text-decoration: none;
+}
+.footl:hover{
+    color:white;
+    background-color: maroon;
+  
+}
+
+
+
+
+
+
